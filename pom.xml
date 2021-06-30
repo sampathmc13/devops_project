@@ -122,9 +122,9 @@
     <build>
         <plugins>
 		<plugin>
-				<artifactId>maven-resources-plugin</artifactId>
-				<version>2.6</version>
-			</plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>2.6</version>
+        </plugin> 
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
@@ -157,8 +157,9 @@
 		                </goals>
 		            </execution>
 		        </executions>
-			</plugin>	
+		</plugin>
         </plugins>
+    </build>
 	<repositories>
     <repository>
       <id>${NEXUS-GRP-REPO}</id>
@@ -166,4 +167,3 @@
     </repository>
   </repositories>
 </project>
-
